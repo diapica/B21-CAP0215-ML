@@ -21,14 +21,14 @@ We collected our dataset from various source such as [**Kaggle**](https://www.ka
 Our dataset are available on this repository. You also can download our dataset directly from [here](https://drive.google.com/uc?id=1BlQ0_uY3uRNxSxakjy2WyQu-fvRU8TfN)
 
 ## Directories and Files
-| **Directory **                                    | **Description**
+| **Directory**                                     | **Description**
 |---                                                |---
 | /Dataset                                          | Dataset Folder
 | /Model/skindec.ipnyb                              | Code used to create model
 | /Model/saved_model.zip                            | Saved Model
 
 ## Model
-| **HyperParameter**                                | **Result**
+| **HyperParameter**                                | **Value**
 |---                                                |---
 | Trainable                                         | True
 | Optimizer                                         | SGD
