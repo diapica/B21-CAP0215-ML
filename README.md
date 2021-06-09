@@ -1,9 +1,9 @@
-# SKINDEC - Machine Learning Model for B21-CAP0215 Capstone Project - B21-CAP0215-ML
+# SkinDec - Machine Learning Model for B21-CAP0215 Capstone Project - B21-CAP0215-ML
 
 ## About Project
 This project was created to fulfill final capstone project held by Bangkit 2021.
 This project is about a model that used to do a classification for human skin type especially face skin type. At the end, this model will be implemented on server to provide a classification result to android users.
-This project was built using [Google Collab](colab.research.google.com). We also use [MobileNet_V2 by Tensofrlow](https://tfhub.dev/google/tf2-preview/mobilenet_v2/feature_vector/4) as part of our model.
+This project was built using [Google Colab](colab.research.google.com). We also use [MobileNet_V2 by Tensorflow](https://tfhub.dev/google/tf2-preview/mobilenet_v2/classification/4) as part of our model.
 
 ## Contributor:
 1. Rindang Tavip Supriyanto (M0070660)
@@ -16,9 +16,9 @@ This project was built using [Google Collab](colab.research.google.com). We also
 
 ## Dataset
 At first we will only have 5 labels for our model. There are **normal**, **dry**, **scar**, **oily**, and **acne**. 
-We collected our dataset from various source such as [**Kaggle**](https://www.kaggle.com/shubhamgoel27/dermnet), [**Shutterstock**](https://www.shutterstock.com/search/scar+face), and [**Dermnetnz**](https://dermnetnz.org/topics/acne-face-images/). Due to the limited of datasource for oily skin type, we expand our oily skin type dataset by doing image augmentation (We add oily effect to normal skin to create more oily skin type dataset). We also use photo provider website created by AI, [Generated Photos](https://generated.photos/).
+We collected our dataset from various source such as [**Kaggle**](https://www.kaggle.com/shubhamgoel27/dermnet), [**Shutterstock**](https://www.shutterstock.com/search/scar+face), and [**Dermnetnz**](https://dermnetnz.org/topics/acne-face-images/). Due to the limited of datasource for oily skin type, we expand our oily skin type dataset by doing image augmentation (We add oily effect to normal skin to create more oily skin type dataset). We also use photo provider website created by AI, [**Generated Photos**](https://generated.photos/).
 
-Our dataset are available on this repository. You also can download our dataset directly from [here]( https://drive.google.com/uc?id=1BlQ0_uY3uRNxSxakjy2WyQu-fvRU8TfN)
+Our dataset are available on this repository. You also can download our dataset directly from [here](https://drive.google.com/uc?id=1BlQ0_uY3uRNxSxakjy2WyQu-fvRU8TfN)
 
 ## Directories and Files
 | **Directory **                                    | **Description**
